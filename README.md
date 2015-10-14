@@ -14,7 +14,7 @@ Scripting examples for:
 - bgl / blf
 - import / export
 
-See the wiki for a more elaborate set of categories, most on the above list have multiple examples.
+See the Wiki for a more elaborate set of categories, most on the above list have multiple examples.
 
 
 

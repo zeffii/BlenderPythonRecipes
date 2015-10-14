@@ -1,5 +1,5 @@
 # BlenderPythonRecipes
-_______
+
 _curated snippets for bpy_
 
 Scripting examples for:  

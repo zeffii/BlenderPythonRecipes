@@ -6,6 +6,9 @@ Scripting examples for:
 - Mesh
 - Curves (2d, 3d)
 - Text
+- vertex colors
+- scriped keyframes
+- event handlers
 - Metaballs
 - Bmesh
 - Nodes
@@ -14,7 +17,7 @@ Scripting examples for:
 - bgl / blf
 - import / export
 
-See the Wiki for a more elaborate set of categories, most on the above list have multiple examples.
+See the [Wiki for a more elaborate set of categories](https://github.com/zeffii/BlenderPythonRecipes/wiki), most on the above list have multiple examples.
 
 
 

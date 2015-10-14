@@ -1,4 +1,4 @@
-# BlenderPythonRecipes
+# Blender Python Recipes
 
 _curated snippets for bpy_
 

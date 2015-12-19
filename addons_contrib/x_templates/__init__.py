@@ -35,7 +35,7 @@ def get_subdirs(current_dir):
     for f in os.listdir(current_dir):
         if f == '__pycache__':
             continue
-            
+
         joined = os.path.join(current_dir, f)
         if os.path.isdir(joined):
             yield joined
@@ -74,7 +74,8 @@ for subdir in get_subdirs(current_dir):
     def sub_draw(self, context):
         layout = self.layout
         t = "wm.script_template_loader"
-        for _, _pyfile, _path in subdict[submenu_name]:
+        this_menu_name = self.bl_idname.replace("TEXT_MT_xtemplates_", "")
+        for _, _pyfile, _path in subdict[this_menu_name]:
             layout.operator(t, text=_pyfile).script_path = _path
 
     dynamic_class = make_menu(submenu_name, sub_draw)
